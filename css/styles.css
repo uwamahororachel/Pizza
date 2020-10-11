@@ -1,0 +1,65 @@
+html{
+	scroll-behavior: smooth;
+	}
+	body,html,section,h1,p{
+		margin: 0px;
+		box-sizing: border-box;
+		padding: 0px;
+	
+	}
+	
+	
+	.home{
+		position: relative;
+		width: 100%;
+		background-color:#fff;
+		
+		}
+	.home .background{
+		width: 100%;
+		filter:brightness(30%);
+	}
+	
+	.home div{
+		position: absolute;
+		width: 70%;
+		left:14.5%;
+		z-index: 3;
+		right:15%;
+		top: 2%;
+		padding: 10px;
+		text-align:center;
+	
+	}
+	
+	.home div .logo{
+	width:30%;
+	background-color: #ffc107;
+	border-radius: 60%;
+	}
+	.home div h1{
+		color: white!important;
+		font-size: 4vw;
+		background-color:#111;
+		padding: 20px 0px 0px 0px;
+		margin-top:2%;
+		color: #ffc107;
+		font-family: 'Chilanka', cursive;
+		font-weight: bolder;
+	}
+	
+	.home div p{
+		color: #fff;
+		font-size: 2vw;
+	}
+	
+	.home .btn{ 
+		width: 13vw;
+		color: #222;
+		font-weight: bold;
+		
+		font-size: 1.5vw;
+	}
+	.home .btn:hover{ 
+	color: #eee;
+	}
