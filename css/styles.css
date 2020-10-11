@@ -192,4 +192,12 @@ color: #111;
 	 }
 
 
+.about_section i{
+	color: #ffc107;
+	font-size: 6vw
+}
+.about_section div p{
+	font-size: 4vw;
+	
+}
 }
