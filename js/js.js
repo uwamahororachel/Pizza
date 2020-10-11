@@ -52,11 +52,26 @@ $(document).ready(function () {
         if (pizzaPick===0){
        document.getElementById("procName").innerHTML+= $('#type').val();
    
-   
+    document.getElementById("procprice").innerHTML+= price+"(*"+quantity+")";
+    document.getElementById("procfee").innerHTML+= " Free";
+    document.getElementById("proctot").innerHTML+= newTotal.totalprice()+"Frw";
+    
+
+         document.getElementById("button_confirm").innerHTML+="<button type=\"button\" onclick=\"confirmOrder()\" id=\"confimbutton\" class=\"btn btn-warning\">Confirm Order</button>";
+        
 
         }else{
             if(pizzaPick===1){
-            }
+            document.getElementById("procName").innerHTML+= $('#type').val();
+        document.getElementById("procprice").innerHTML+= price+"(*"+quantity+")";
+        document.getElementById("procfee").innerHTML+=DeliveryCost+"Frw";
+
+        document.getElementById("procaddh").innerHTML+="<h2>Delivered To:"+address+"</h2>";
+        document.getElementById("procphoneh").innerHTML+= "<h2>Phone:"+phone+"</h2>";
+
+        document.getElementById("proctot").innerHTML+= newTotal.totalprice()+"Frw";
+        document.getElementById("button_confirm").innerHTML+="<button type=\"button\" onclick=\"confirmOrder()\" id=\"confimbutton\" class=\"btn btn-warning\">Confirm Order</button>";
+             }
         }
 
     });
