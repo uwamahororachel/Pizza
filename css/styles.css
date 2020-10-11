@@ -107,3 +107,62 @@ margin: 0px auto;
 	width: 85%;
 	margin: 0px auto;
 }
+
+
+
+/* *********************** Order Section ********/
+#order {
+	background-image:url("../images/pizza.png");
+	background-repeat: no-repeat;
+	background-size:23%;
+	background-attachment: scroll;
+	background-position:center;
+	background-color: rgba(200,200,200,.1);
+	font-family: 'Chilanka', cursive;
+
+  }
+  #order .container{
+	display: flex;
+	width: 80%;
+	
+	margin: 0px auto;
+	text-align: center;
+  }
+  #order .container .item{
+	flex:1 1 400px;
+	padding: 15px;
+  }
+
+  #order form{
+	display: table;
+	
+	font-weight: bolder;
+	margin: 0px auto;
+  }
+  #order form input[type=number]{
+	  width: 50px;
+	  padding: 5px;
+
+	  border-radius: 10px;
+  }
+  select{
+	  border: 2px solid #ffc107;
+	  padding: 5px;
+	  border-radius: 10px;
+  }
+
+  #order form label{
+display:block;
+margin: 10px 0px;
+  }
+  #order .logo{
+	width: 20%;
+	display: block;
+	margin: 0px auto
+  }
+
+h1{
+  color: brown!important;
+  font-weight: bolder;
+  font-family: 'Chilanka', cursive;
+}
