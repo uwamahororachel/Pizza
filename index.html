@@ -163,6 +163,26 @@
   </div>
 </section>
 
+<script type="text/javascript">
+	function showaddressbar() {
+	var selectBox = document.getElementById("selectBox");
+	var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+	if (selectedValue=="1"){
+	$('#delivery_textbox').show();
+	$('#delivery_phone').show();
+	}
+	else{
+	  $('#delivery_textbox').hide();
+	  $('#delivery_phone').hide();
+	}}
+</script>
+
+
+<section class="footer_section">
+	<footer >
+		<center><p>Rachel's <br> 2019</p></center>
+	</footer>
+</section>
 </body>
 </html>
 
