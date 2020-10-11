@@ -75,6 +75,90 @@
 
 </section>
 
+
+
+
+
+<section id="order">
+	<center><h1>Make Your Order</h1></center>
+  <div class="container">
+
+	  <div class="item">
+			<form id="myForm"> 
+
+				<label for="sel1">Pizza type:</label>
+				<select id="type">
+					  <option>Vegetarian</option>
+					  <option>Margherita</option>
+					  <option>Hawaiian</option>
+					  <option>Grilled-caprese</option>
+					  <option>Pizza Calzone</option>
+					  <option>Fontana</option>
+					</select>
+			  
+					<label for="sel1">Select crust:</label>
+					<select id="crust">
+					  <option>Cripsy</option>
+					  <option>Stuffed</option>
+					  <option>Gluten-free</option>
+					  <option>Neapolitan Crust</option>
+					  <option>Thin Crust</option>
+				</select>
+		  
+		   
+				<label for="sel1">Select topping:</label>
+				<select id="top">
+				  <option>Mushrooms</option>
+					  <option>Pepperoni</option>
+					  <option>Extra cheese</option>
+					  <option>Green peppers</option>
+					  <option>onions</option>
+					  <option>Sausage</option>
+
+					  <option>Bacon</option>
+					</select>
+			 
+					<label for="sel1">Select size:</label>
+					<select id="size">
+					  <option value="0">Large</option>
+					  <option value="1">Medium</option>
+					  <option value="2">Small</option>
+				</select>
+
+			
+				<label for="quantt">Quantity:</label>
+				<input type="number" id="quantt"  min="1" required>
+		  
+				<label for="selectdeliverytype">Delivery option:</label>
+				
+			   <p> <select id="selectBox" class="pick" onchange="showaddressbar();">
+					  <option value="0">Self pick up</option>
+					  <option value="1">Delivered</option>
+				</select></p>
+
+<input name="dd_number" placeholder="Address: KN 45 St" class="form-control" type="text" style="display: none;margin: 4px;" id="delivery_textbox">
+<input name="dd_number" placeholder="Phone Number:" type="text" style="display: none;margin: 4px;" id="delivery_phone">
+
+
+
+					<br>
+				<button type="submit" class="btn btn-warning btn-block">checkout</button>
+  </form>
+	  </div>
+	 <div class="item">
+		<img src="images/chefhol.png" class="logo">
+			<h2>Piza Name:<span id="procName"></span></h2>
+			 <h2>Piza Price:<span id="procprice"></span></h2>
+			<h2>Delivery Fee:<span id="procfee"></span></h2>
+			 <h2>Total Bill:<span id="proctot"></span></h2>
+			 <span id="procaddh"></span>
+			 <span id="procphoneh"></span>
+			 <a id="button_confirm"></a>
+				 </div>
+			
+  </div>
+</section>
+
 </body>
 </html>
 
