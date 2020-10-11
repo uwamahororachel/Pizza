@@ -63,3 +63,47 @@ html{
 	.home .btn:hover{ 
 	color: #eee;
 	}
+
+
+/* ********************** ABOUR Section ***************/
+.about_section{
+	width: 100%;
+padding: 40px 10px;
+text-align: center;
+margin-top: 40px;
+	padding-top: 40px;
+	font-family: 'Chilanka', cursive;
+}
+.about_section .supercont{
+	width: 80%;
+
+margin: 0px auto;
+}
+.about_section .container{
+	display: flex;
+	align-items: center;
+}
+
+.about_section .items{
+	flex:1 1 400px;
+}
+.verticle div{
+	margin-bottom: 5px;
+}
+.about_section div h1{
+	font-weight: bolder;
+	font-size: 4vh;
+	margin: 0px;
+	text-transform: capitalize;
+}
+
+.about_section i{
+	color: #ffc107;
+	font-size: 3vw
+}
+.about_section div p{
+	font-size: 1.5vw;
+	text-align:left;
+	width: 85%;
+	margin: 0px auto;
+}
