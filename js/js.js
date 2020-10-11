@@ -46,6 +46,19 @@ $(document).ready(function () {
         var DeliveryCost = deliverPrices[pizzaPick];
 
 
+
+        newOrder = new Order(typeofpiza, pizzaSize, Crust, ptopping, phone, address);
+        newTotal = new Total(price, quantity, DeliveryCost);
+        if (pizzaPick===0){
+       document.getElementById("procName").innerHTML+= $('#type').val();
+   
+   
+
+        }else{
+            if(pizzaPick===1){
+            }
+        }
+
     });
 
 });
